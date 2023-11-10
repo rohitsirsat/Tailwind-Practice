@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="font-mono">
+    <main class="flex w-full h-screen">
+        <img src="https://images.pexels.com/photos/18926247/pexels-photo-18926247/free-photo-of-jeep-car-at-sunset.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt="Car" class="hidden lg:block w-1/2 object-cover">
+
+        <div class="w-full h-full lg:w-1/2 flex flex-col justify-center items-center">
+
+            <div class="text-center">
+                <span class="text-green-600 text-4xl">&#9650</span>
+                <span class="text-3xl text-center font-bold">FarmMan</span>
+                <h2 class="text-2xl text-center font-bold mt-4">Hello,</h2>
+                <h2 class="text-2xl text-center font-bold">Welcome back</h2>
+            </div>
+
+            <form action="" class="flex flex-col mt-8 space-y-4">
+                <h4 class="text-slate-600">Login to manage your account</h4>
+
+                <input class="border py-2 px-4 rounded-lg focus:outline-none focus:ring focus:border-green-600"
+                    type="email" placeholder="Emial">
+
+                <input class="border py-2 px-4 rounded-lg focus:outline-none focus:ring focus:border-green-600"
+                    type="password" placeholder="Password">
+
+                <span class="text-blue-600 hover:text-blue-400 cursor-pointer">forgot your
+                    password?</span>
+
+                <button
+                    class="w-full font-bold bg-green-600 py-2 rounded-lg text-white hover:bg-green-700">Login</button>
+
+            </form>
+
+            <p class="mt-2">or</p>
+            <div class="text-2xl space-x-3 mt-2">
+                <i class="ri-facebook-circle-fill"></i>
+                <i class="ri-google-fill"></i>
+                <i class="ri-instagram-line"></i>
+            </div>
+            <p class="mt-2">Don't have an account? <span class="text-blue-600"> Sign-up</span></p>
+        </div>
+    </main>
+</body>
+
+</html>
